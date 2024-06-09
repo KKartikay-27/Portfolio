@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+.desc{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+.name{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.quicklinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+.qLinks{
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+}
