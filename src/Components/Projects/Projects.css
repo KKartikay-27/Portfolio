@@ -1,5 +1,62 @@
-.top{
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top {
     font-size: 3rem;
     margin-top: 5rem;
     font-weight: 500;
-}
+  }
+  
+  .bar {
+    height: 10px;
+    width: 0%;
+    background-color: rgb(107, 186, 238);
+    animation: fillBar 1s linear forwards;
+    margin: 2rem 0; /* Remove horizontal margins */
+  }
+  
+  @keyframes fillBar {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .upperP, .lowerP {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .project h2 {
+    margin: 1rem 0;
+  }
+  
+  .project p {
+    margin: 10px 0;
+  }
+  
+  .project a {
+    align-self: flex-end;
+    color: black;
+    font-size: 2rem;
+    margin-top: auto;
+  }
+  
